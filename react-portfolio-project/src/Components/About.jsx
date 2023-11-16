@@ -5,10 +5,7 @@ const About = () => {
     <div className='About'>
       <h2>About</h2>
       <p>
-        I have been on the hunt for knowledge,
-        new experiences, new friends,
-        and adrenaline from the jump.
-        Trying new things is 
+       Paragraph
       </p>
     </div>
   )
