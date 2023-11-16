@@ -1,7 +1,8 @@
 import { useState } from 'react'
+// import 'bootswatch/dist/Vapor/bootstrap.min.css'
 import './App.css'
 import Home from './Components/Home'
-import About from './Components/About'
+import Resume from './Components/Resume'
 import Portfolio from './Components/Portfolio'
 import Contact from './Components/Contact'
 import Header from './Components/Header'
@@ -13,8 +14,8 @@ function App() {
     if (currentPage === 'Home') {
       return <Home />
     }
-    if (currentPage === 'About') {
-      return <About />
+    if (currentPage === 'Resume') {
+      return <Resume />
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />
