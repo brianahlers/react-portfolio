@@ -1,5 +1,5 @@
 import { useState } from 'react'
-// import 'bootswatch/dist/Vapor/bootstrap.min.css'
+import 'bootswatch/dist/Vapor/bootstrap.min.css'
 import './App.css'
 import Home from './Components/Home'
 import Resume from './Components/Resume'
@@ -23,16 +23,16 @@ function App() {
     if (currentPage === 'Contact') {
       return <Contact />
     }
-}
+  }
 
-const handlePageChange = (page) => setCurrentPage(page)
+  const handlePageChange = (page) => setCurrentPage(page)
 
   return (
     <>
-    <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-    <main>
-      {renderPage()}
-    </main>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main>
+        {renderPage()}
+      </main>
     </>
   )
 }

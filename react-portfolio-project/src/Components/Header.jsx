@@ -6,8 +6,8 @@ const Header = ({ currentPage, handlePageChange }) => {
     console.log(currentPage)
     return (
         <header>
-            <h1>put a pic here</h1>
-            <p>put a description here</p>
+            <h1>Brian Ahlers</h1>
+            <p>Homepage</p>
             <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </header>
     )
